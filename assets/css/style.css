@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+body.index {
+    height: 100%;
+    background-image: url(../images/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-image: none;
+    background-color: whitesmoke;
+}
+
+/*................navbar styling*/
+
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.navbar {
+    font-family: "Exo",sans-serif;
+    font-weight: 500;
+}
+
+
+.navbar-brand {
+    border: 0.14rem solid black;
+    border-radius: 50%;
+    padding: 15px;
+    font-family: "Exo",sans-serif;
+    font-weight: 600;
+    background: #f37c07;
+    text-shadow: 2px 2px 1px #332908;
+}
+
+
+/*................team*/
+
+
+figure {
+    padding: 10px;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 1px;
+    box-shadow: 2px 2px 10px #2c2d2d;
+}
+
+
+h4.team {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+p.team {
+    font-weight: 400;
+    margin: 10px;
+}
+
+
+
+
+
+/*..................service*/
+
+section#service,#pricelist,#team,#contacts {
+    background-color: #f7f1bb;
+    border-top: 20px solid #f37c07;
+    border-radius: 6px;
+}
+
+
+#service-details {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+
+
+/*...................pricelist styling*/
+
+
+.col-6.pricelist{
+    margin-top: 30px;
+}
+
+table.table {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: "Exo",sans-serif;
+    background-color: whitesmoke;
+    box-shadow: 2px -2px 10px black;
+} 
+  
+
+.table th, .table td {
+    border-top: none !important;
+    border-left: none !important;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #f37c07;
+}
+    
+.carousel-item{
+    max-height: 200px;
+}
+
+h3.pricelist {
+    margin-top: 10px;
+    font-family: "Exo",sans-serif;
+    text-align: center;
+    color: #f37c07;
+}
+
+/*...............contact us*/
+
+.col-6.contacts {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 2px -2px 16px black;
+    
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #f37c07;
+    font-family: "Exo", sans-serif;
+}
+
+.btn.btn-primary {
+   margin: 20px;
+   border: 1px solid #f37c07;
+   box-shadow: 2px -2px 16px black;
+   background-color: #f37c07;
+}
+
+h3.contacts{
+    margin-top: 10px;
+    font-family: "Exo",sans-serif;
+    text-align: center;
+    color: #f37c07;
+}
+
+
+
+
+
+
+/*...................footer*/
+
+
+footer.container {
+     border-top: 20px solid #f37c07;
+     background-color: #f7f1bb;
+}
+
+
+#footer-details.index {
+    margin-top: 35%;
+    margin-left: 40px;
+}
+
+
+
+
+
+#footer-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 40px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5e6072;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #a31b16;
+}
+
+
+h5 {
+    text-decoration: underline;
+   
+}
+
+
+
+
+
+
+/*.............media queries*/
+
+
+/*............index page for screens less than 992px...*/
+
+
+@media(max-width:992px){
+    
+nav {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+#footer-details {
+    margin-top: 0px;
+    margin-left: -15px;
+    background-color: #f37c07;
+    text-align: center;
+}
+
+
+#footer-details.index {
+    background-color:transparent;
+}
+}
+
+ @media(max-width:320px){
+    
+table.table {
+    
+    background-color:transparent;
+    box-shadow: none;
+}
+ .table td,.table th {
+     display: flex;
+ }
+
+  .table td {
+      margin-top:-22px;
+      border-bottom: 2px dotted #f37c07;
+     
+  }
+ 
+ } 
+
+
+
+
+
+
+
+
+
+
